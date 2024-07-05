@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Videos on Spotify</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>YouTube Videos on Spotify</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#episodes">Episodes</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About the Podcast</h2>
+            <p>Welcome to "YouTube Videos on Spotify"! We reupload YouTube videos with the original creator's permission to make them accessible for everyone, especially for those with screen time restrictions. Our library is very VTuber-based.</p>
+        </section>
+        <section id="episodes">
+            <h2>Episodes</h2>
+            <ul id="episode-list">
+                <!-- Episodes will be added here dynamically by JavaScript -->
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>For inquiries or permissions, reach us at <a href="mailto:ytvidsonspotify@gmail.com">ytvidsonspotify@gmail.com</a>. We check our email daily!</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 YouTube Videos on Spotify</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
